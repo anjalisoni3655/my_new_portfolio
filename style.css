@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(204, 234, 235);
+}
+h1 {
+  color: rgb(101, 41, 212);
+  text-shadow: 2px 2px 5px rgb(125, 223, 236);
+  font-family: "Times New Roman", Times, serif;
+}
+h3 :hover {
+  color: rgb(56, 35, 248);
+  background-color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  border-color: blue;
+  border-width: 3px;
+}
+img {
+  height: 130px;
+  width: 150px;
+  border-radius: 100px;
+}
+.projects {
+  background-color: black;
+}
+/*
+inline css>internal css>external css
+tag selector // chganges entire tags 
+class selector // changes a partiular class
+id selecter // does the same like class selector but 
+only one id name selector can be there. 
+
+<img class ="anjali"
+<img  class ="anjali"
+are valid for classes but not for ids
+
+<img class =" class1 class2"  is also not possible for ids
+
+
+to change property using id
+
+#id_name{
+    
+}
+*/
